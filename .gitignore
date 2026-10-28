@@ -1,0 +1,45 @@
+# macOS archive artifacts
+__MACOSX/
+.DS_Store
+._*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+media/
+
+# Node / Vite
+node_modules/
+dist/
+*.tsbuildinfo
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+
+# Logs
+*.log
